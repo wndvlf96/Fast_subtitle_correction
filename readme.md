@@ -1,10 +1,10 @@
 # 유튜브의 자동 생성 자막에 대한 교정 처리
 ## 기존 자동 생성된 자막에 대해서 바른AI, GPT에 대한 교정 결과
-
+### 아래의 코드에 API Key를 바른AI에서 받아서 유튜브 개발자모드 콘솔창에 넣으면 실시간 교정 결과를 확인 가능
 ``` javascript
 
 const API_URL = "https://api.bareun.ai/bareun.RevisionService/CorrectError";
-const API_KEY = "koba-4FTYDTQ-YSOE4XA-UUNZYKQ-UMKWG6I";
+const API_KEY = "여기에 API키를 입력해주세요";
 
 let lastSentText = "";
 
